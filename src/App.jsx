@@ -1,34 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Card from './views/Card'
+import YuriAlberto from '../src/images/yuri-alberto.jpg'
+import HugoSouza from '../src/images/hugo-souza.jpg'
+import MemphisDepay from '../src/images/memphis-depay.jpg'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className='container'>
+      <Card imagem={YuriAlberto} nome="Yuri Alberto" numeroCamisa="9" posicao="Centroavante" time="Corinthians" habilidade="habilidade"/>
+      <Card imagem={HugoSouza} nome="Hugo Souza" numeroCamisa="1" posicao="Goleiro" time="Corinthians" habilidade="habilidade"/>
+      <Card imagem={MemphisDepay} nome="Memphis Depay" numeroCamisa="10" posicao="Atacante" time="Corinthians" habilidade="habilidade"/>
+      <Card imagem={YuriAlberto} nome="Yuri Alberto" numeroCamisa="9" posicao="Centroavante" time="Corinthians" habilidade="habilidade"/>
+    </div>
   )
 }
 
