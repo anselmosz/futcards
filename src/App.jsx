@@ -7,10 +7,9 @@ import MemphisDepay from '../src/images/memphis-depay.jpg'
 function App() {
   return (
     <div className='container'>
-      <Card imagem={YuriAlberto} nome="Yuri Alberto" numeroCamisa="9" posicao="Centroavante" time="Corinthians" habilidade="habilidade"/>
+      <Card imagem={YuriAlberto} nome="Yuri Alberto" numeroCamisa="9" posicao="Atacante" time="Corinthians" habilidade="habilidade"/>
       <Card imagem={HugoSouza} nome="Hugo Souza" numeroCamisa="1" posicao="Goleiro" time="Corinthians" habilidade="habilidade"/>
       <Card imagem={MemphisDepay} nome="Memphis Depay" numeroCamisa="10" posicao="Atacante" time="Corinthians" habilidade="habilidade"/>
-      <Card imagem={YuriAlberto} nome="Yuri Alberto" numeroCamisa="9" posicao="Centroavante" time="Corinthians" habilidade="habilidade"/>
     </div>
   )
 }
