@@ -9,7 +9,7 @@ function App() {
     <div className='container'>
       <Card imagem={YuriAlberto} nome="Yuri Alberto" numeroCamisa="9" posicao="Atacante" time="Corinthians" habilidade="Marcação Ativa"/>
       <Card imagem={HugoSouza} nome="Hugo Souza" numeroCamisa="1" posicao="Goleiro" time="Corinthians" habilidade="Reação rápida"/>
-      <Card imagem={MemphisDepay} nome="Memphis Depay" numeroCamisa="10" posicao="Atacante" time="Corinthians" habilidade=""/>
+      <Card imagem={MemphisDepay} nome="Memphis Depay" numeroCamisa="10" posicao="Atacante" time="Corinthians" habilidade="Freestyle"/>
     </div>
   )
 }

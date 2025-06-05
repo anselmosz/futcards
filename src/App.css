@@ -13,10 +13,11 @@
   background-color: brown;
   padding: 12px;
   border-radius: 16px;
-  max-width: 300px;
+  width: 250px;
 }
 
 .imagem-jogador {
+  width: 100%;
   margin-bottom: 12px;
   border-radius: 10px;
   height: 300px;
