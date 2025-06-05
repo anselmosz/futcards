@@ -26,11 +26,16 @@
 .habilidade {
   display: flex;
   align-items: center;
+  gap: 10px;
   background-color: aliceblue;
   padding: 10px;
   border-radius: 10px;
   color: #000;
   line-height: 0.1;
+}
+
+.habilidade img {
+  width: 20px;
 }
 
 .info-jogador {
